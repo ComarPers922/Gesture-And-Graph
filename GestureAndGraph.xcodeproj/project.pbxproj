@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183010581EBF9B070036BA93 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 183010571EBF9B070036BA93 /* MyButton.m */; };
+		1830105C1EBF9FB50036BA93 /* GestureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830105B1EBF9FB50036BA93 /* GestureController.m */; };
+		183010601EBFA2C60036BA93 /* GestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830105F1EBFA2C60036BA93 /* GestureView.m */; };
+		186A06601EB668510072A1FD /* WaterLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A065F1EB668510072A1FD /* WaterLevel.m */; };
+		186A06631EB7D4EF0072A1FD /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A06621EB7D4EF0072A1FD /* GraphViewController.m */; };
 		18B14A7B1EA5C521005DACCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B14A7A1EA5C521005DACCC /* main.m */; };
 		18B14A7E1EA5C521005DACCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B14A7D1EA5C521005DACCC /* AppDelegate.m */; };
 		18B14A811EA5C521005DACCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B14A801EA5C521005DACCC /* ViewController.m */; };
 		18B14A841EA5C521005DACCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B14A821EA5C521005DACCC /* Main.storyboard */; };
 		18B14A861EA5C521005DACCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B14A851EA5C521005DACCC /* Assets.xcassets */; };
 		18B14A891EA5C521005DACCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B14A871EA5C521005DACCC /* LaunchScreen.storyboard */; };
+		18B14A921EA5C60E005DACCC /* MyGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B14A911EA5C60E005DACCC /* MyGraphView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		183010561EBF9B070036BA93 /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		183010571EBF9B070036BA93 /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		1830105A1EBF9FB50036BA93 /* GestureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureController.h; sourceTree = "<group>"; };
+		1830105B1EBF9FB50036BA93 /* GestureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureController.m; sourceTree = "<group>"; };
+		1830105E1EBFA2C60036BA93 /* GestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureView.h; sourceTree = "<group>"; };
+		1830105F1EBFA2C60036BA93 /* GestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureView.m; sourceTree = "<group>"; };
+		186A065E1EB668510072A1FD /* WaterLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterLevel.h; sourceTree = "<group>"; };
+		186A065F1EB668510072A1FD /* WaterLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterLevel.m; sourceTree = "<group>"; };
+		186A06611EB7D4EF0072A1FD /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		186A06621EB7D4EF0072A1FD /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
 		18B14A761EA5C521005DACCC /* GestureAndGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureAndGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B14A7A1EA5C521005DACCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18B14A7C1EA5C521005DACCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +42,8 @@
 		18B14A851EA5C521005DACCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B14A881EA5C521005DACCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B14A8A1EA5C521005DACCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B14A901EA5C60E005DACCC /* MyGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyGraphView.h; path = ../MyGraphView.h; sourceTree = "<group>"; };
+		18B14A911EA5C60E005DACCC /* MyGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyGraphView.m; path = ../MyGraphView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183010591EBF9F7A0036BA93 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18B14A7F1EA5C521005DACCC /* ViewController.h */,
+				18B14A801EA5C521005DACCC /* ViewController.m */,
+				186A06611EB7D4EF0072A1FD /* GraphViewController.h */,
+				186A06621EB7D4EF0072A1FD /* GraphViewController.m */,
+				1830105A1EBF9FB50036BA93 /* GestureController.h */,
+				1830105B1EBF9FB50036BA93 /* GestureController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1830105D1EBF9FC00036BA93 /* Custom UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				18B14A901EA5C60E005DACCC /* MyGraphView.h */,
+				18B14A911EA5C60E005DACCC /* MyGraphView.m */,
+				186A065E1EB668510072A1FD /* WaterLevel.h */,
+				186A065F1EB668510072A1FD /* WaterLevel.m */,
+				183010561EBF9B070036BA93 /* MyButton.h */,
+				183010571EBF9B070036BA93 /* MyButton.m */,
+				1830105E1EBFA2C60036BA93 /* GestureView.h */,
+				1830105F1EBFA2C60036BA93 /* GestureView.m */,
+			);
+			name = "Custom UIViews";
+			sourceTree = "<group>";
+		};
 		18B14A6D1EA5C520005DACCC = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +104,10 @@
 		18B14A781EA5C521005DACCC /* GestureAndGraph */ = {
 			isa = PBXGroup;
 			children = (
+				1830105D1EBF9FC00036BA93 /* Custom UIViews */,
+				183010591EBF9F7A0036BA93 /* Controllers */,
 				18B14A7C1EA5C521005DACCC /* AppDelegate.h */,
 				18B14A7D1EA5C521005DACCC /* AppDelegate.m */,
-				18B14A7F1EA5C521005DACCC /* ViewController.h */,
-				18B14A801EA5C521005DACCC /* ViewController.m */,
 				18B14A821EA5C521005DACCC /* Main.storyboard */,
 				18B14A851EA5C521005DACCC /* Assets.xcassets */,
 				18B14A871EA5C521005DACCC /* LaunchScreen.storyboard */,
@@ -150,9 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183010601EBFA2C60036BA93 /* GestureView.m in Sources */,
 				18B14A811EA5C521005DACCC /* ViewController.m in Sources */,
+				1830105C1EBF9FB50036BA93 /* GestureController.m in Sources */,
+				186A06601EB668510072A1FD /* WaterLevel.m in Sources */,
+				183010581EBF9B070036BA93 /* MyButton.m in Sources */,
 				18B14A7E1EA5C521005DACCC /* AppDelegate.m in Sources */,
 				18B14A7B1EA5C521005DACCC /* main.m in Sources */,
+				18B14A921EA5C60E005DACCC /* MyGraphView.m in Sources */,
+				186A06631EB7D4EF0072A1FD /* GraphViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +361,7 @@
 				18B14A8F1EA5C521005DACCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

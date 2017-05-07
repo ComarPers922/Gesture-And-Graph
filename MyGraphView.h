@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyGraphView.h
 //  GestureAndGraph
 //
 //  Created by ComarPers 922 on 2017/4/17.
@@ -7,11 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GraphViewController.h"
-#import "GestureController.h"
+#import "WaterLevel.h"
 
-@interface ViewController : UIViewController
-
-
+@interface MyGraphView : UIView
+@property (strong,nonatomic) UIViewController* superController;
 @end
-
